@@ -1,0 +1,47 @@
+obj\Debug\Associate Time Tracker.exe
+obj\Debug\Associate Time Tracker.pdb
+bin\Associate Time Tracker.exe
+bin\Associate Time Tracker.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\vb_test.frmAssociate.resources
+obj\Debug\vb_test.frmAddAssociate.resources
+obj\Debug\vb_test.frmEditAssociate.resources
+obj\Debug\vb_test.frmFixFile.resources
+obj\Debug\vb_test.frmGetPIN.resources
+obj\Debug\vb_test.frmSick.resources
+obj\Debug\vb_test.frmLogin.resources
+obj\Debug\vb_test.frmManager.resources
+obj\Debug\Associate Time Tracker.vbproj.GenerateResource.Cache
+obj\Debug\Associate Time Tracker.xml
+bin\Interop.CRVIEWERLib.dll
+bin\AxInterop.CRVIEWERLib.dll
+obj\Debug\Interop.CRVIEWERLib.dll
+obj\Debug\AxInterop.CRVIEWERLib.dll
+obj\Debug\Associate Time Tracker.vbproj.ResolveComReference.cache
+obj\Debug\vb_test.WeeklyReport.rpt
+obj\Debug\vb_test.frmViewReport.resources
+obj\Debug\vb_test.frmGetDate.resources
+obj\Debug\vb_test.frmViewAssociateTime.resources
+bin\Associate Time Tracker.exe.config
+obj\Debug\vb_test.Resources.resources
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\Interop.CRVIEWERLib.dll
+obj\Release\AxInterop.CRVIEWERLib.dll
+obj\Release\Associate Time Tracker.vbproj.ResolveComReference.cache
+obj\Release\vb_test.WeeklyReport.rpt
+obj\Release\vb_test.frmAssociate.resources
+obj\Release\vb_test.frmGetDate.resources
+obj\Release\vb_test.frmViewAssociateTime.resources
+obj\Release\vb_test.frmViewReport.resources
+obj\Release\vb_test.Resources.resources
+obj\Release\vb_test.frmAddAssociate.resources
+obj\Release\vb_test.frmEditAssociate.resources
+obj\Release\vb_test.frmFixFile.resources
+obj\Release\vb_test.frmGetPIN.resources
+obj\Release\vb_test.frmSick.resources
+obj\Release\vb_test.frmLogin.resources
+obj\Release\vb_test.frmManager.resources
+obj\Release\Associate Time Tracker.vbproj.GenerateResource.Cache
+obj\Release\Associate Time Tracker.exe
+obj\Release\Associate Time Tracker.xml
+bin\Associate Time Tracker.pdb

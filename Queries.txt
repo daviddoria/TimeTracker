@@ -1,0 +1,37 @@
+﻿Associate
+-------------
+FillByName:
+SELECT  AssociateName, SocialSecurityNumber, StartingDate, Type, PIN
+FROM     AssociateTable
+WHERE  (AssociateName = ?)
+ORDER BY AssociateName
+
+FillByType:
+SELECT  AssociateName, SocialSecurityNumber, StartingDate, Type, PIN
+FROM     AssociateTable
+WHERE  (Type LIKE ?)
+ORDER BY AssociateName
+
+Company
+-----------
+FillByName:
+SELECT CompanyName, PayDay, PayrollFaxNumber, MOTD, PayrollContact, OwnerName, CompanyPhone FROM CompanyTable WHERE (CompanyName = ?)
+
+PunchEventTable:
+FillByAssociateDateReason:
+SELECT  Associate, TimeField, InOut, Reason, [Key]
+FROM     PunchEventTable
+WHERE  (AssociateName LIKE ?) AND (Reason LIKE ?) AND (datediff('d', TimeField, ?) = 0)
+ORDER BY TimeField
+
+FillByLast:
+SELECT  Associate, TimeField, InOut, Reason, [Key]
+FROM     PunchEventTable
+WHERE  (TimeField =
+                   (SELECT  MAX(TimeField) AS Expr1
+                    FROM     PunchEventTable PunchEventTable_1
+                    WHERE  (AssociateName LIKE ?))) AND (AssociateName LIKE ?)
+    
+Me.Adapter.SelectCommand.Parameters(0).Value = CType(AssociateName, String)
+Me.Adapter.SelectCommand.Parameters.Add(New System.Data.OleDb.OleDbParameter)
+Me.Adapter.SelectCommand.Parameters(1).Value = CType(AssociateName, String)

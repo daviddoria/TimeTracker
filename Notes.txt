@@ -1,0 +1,37 @@
+﻿use
+Dim FilterString As String = String.Format("Associate = 'Renee Entremont' AND TimeField >= #{0:M/dd/yyyy}#", StartDate) 
+instead of 
+Dim FilterString As String = "Associate='Renee Entremont' and TimeField>=#" & StartDate & "#" 
+
+Select a single day:
+Dim SelectString As String = "associate='" & Name & "' and timefield>=#" & DateOfEvents & "# and timefield <#" & DateOfEvents.AddDays(1) & "#"
+OR BETTER IS
+SELECT  Associate, TimeField, InOut, Reason, [Key]
+FROM     PunchEventTable
+WHERE  (Associate LIKE ?) AND (Reason LIKE ?) AND (datediff('d', TimeField, ?) = 0)
+ORDER BY TimeField
+
+Create a new row:
+Do this
+Dim PunchInNewRow As TTDataSet.PunchEventTableRow = EventTable.NewPunchEventTableRow
+instead of this:
+Dim PunchInNewRow As TTDataSet.PunchEventTableRow
+
+"shared" is like "static" in c++, relates the function to the class, not a particular instance of the class
+Public Shared Function DirectionToString(ByVal Direction As EventDirection) As String
+
+ 'assign a report to the reportViewer
+'frmViewReport.ReportViewer1.LocalReport.ReportEmbeddedResource = "vb_test.Detailed.rdlc"
+
+
+time a function:
+
+
+        'Static start_time As DateTime
+        'Static stop_time As DateTime
+        'Dim elapsed_time As TimeSpan
+
+        'start_time = Now
+        'stop_time = Now
+        'elapsed_time = stop_time - start_time
+        'MessageBox.Show(elapsed_time.TotalMinutes.ToString)

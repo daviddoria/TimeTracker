@@ -1,0 +1,155 @@
+
+8/31/2009 6:38 PM Started Program.
+8/31/2009 6:38 PM Clicked Exit
+
+8/31/2009 8:49 PM Started Program.
+8/31/2009 8:49 PM Clicked btnLogin
+8/31/2009 8:49 PM Clicked btnFix
+8/31/2009 8:49 PM Clicked lstNameSelect Jodell Pewitt
+8/31/2009 8:49 PM Clicked btnClose
+8/31/2009 8:49 PM Clicked btnLogout
+
+8/31/2009 8:50 PM Started Program.
+8/31/2009 8:50 PM Clicked btnLogin
+8/31/2009 8:50 PM Clicked btnLogout
+
+8/31/2009 8:54 PM Started Program.
+8/31/2009 8:54 PM Clicked Exit
+
+4/4/2010 12:11 PM Started Program.
+4/4/2010 12:11 PM Clicked Exit
+
+4/4/2010 12:17 PM Started Program.
+4/4/2010 12:17 PM Clicked lstNameSelect David Doria
+4/4/2010 12:17 PM Clicked btnGoBack
+4/4/2010 12:17 PM Clicked Exit
+
+4/4/2010 12:21 PM Started Program.
+4/4/2010 12:21 PM Clicked lstNameSelect David Doria
+4/4/2010 12:21 PM Clicked btnLogin
+4/4/2010 12:21 PM Clicked lstNameSelect David Doria
+4/4/2010 12:21 PM Clicked btnLogin
+4/4/2010 12:22 PM Clicked btnOK
+4/4/2010 12:22 PM Clicked Exit
+
+4/4/2010 12:22 PM Started Program.
+4/4/2010 12:22 PM Clicked lstNameSelect David Doria
+4/4/2010 12:22 PM Clicked btnLogin
+4/4/2010 12:23 PM Clicked btnGoBack
+4/4/2010 12:23 PM Clicked Exit
+
+4/4/2010 12:24 PM Started Program.
+4/4/2010 12:25 PM Clicked lstNameSelect Nick Doria
+4/4/2010 12:25 PM Clicked btnLogin
+4/4/2010 12:25 PM Clicked btnLogout
+4/4/2010 12:25 PM Clicked Exit
+
+4/4/2010 12:26 PM Started Program.
+4/4/2010 12:26 PM Clicked lstNameSelect Nick Doria
+4/4/2010 12:26 PM Clicked btnLogin
+4/4/2010 12:26 PM Clicked btnViewTime
+4/4/2010 12:26 PM Clicked lstAssociates Jodell Pewitt
+4/4/2010 12:26 PM Clicked btnExit
+4/4/2010 12:26 PM Clicked btnLogout
+4/4/2010 12:26 PM Clicked Exit
+
+4/4/2010 1:39 PM Started Program.
+4/4/2010 1:39 PM Clicked lstNameSelect Nick Doria
+4/4/2010 1:39 PM Clicked btnLogin
+4/4/2010 1:39 PM Clicked btnViewTime
+4/4/2010 1:39 PM Clicked lstAssociates Jodell Pewitt
+
+4/4/2010 1:39 PM Started Program.
+4/4/2010 1:39 PM Clicked lstNameSelect Nick Doria
+4/4/2010 1:39 PM Clicked btnLogin
+4/4/2010 1:39 PM Clicked btnFix
+4/4/2010 1:39 PM Clicked lstNameSelect Lori Brennan
+4/4/2010 1:39 PM Clicked lstNameSelect Jodell Pewitt
+4/4/2010 1:40 PM Clicked btnClose
+4/4/2010 1:40 PM Clicked btnTimeReport
+4/4/2010 1:40 PM Clicked btnGenerate
+4/4/2010 1:42 PM Clicked btnGenerate
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. The data extension returned an error during reading the field. There is no data for the field at position 4. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. The data extension returned an error during reading the field. There is no data for the field at position 4. (rsErrorReadingDataSetField)
+4/4/2010 1:45 PM Clicked btnBack
+4/4/2010 1:45 PM Clicked btnLogout
+4/4/2010 1:45 PM Clicked Exit
+
+5/1/2011 8:26 AM Started Program.
+
+5/1/2011 8:39 AM Started Program.
+5/1/2011 8:39 AM Clicked lstNameSelect Nick Doria
+5/1/2011 8:39 AM Clicked btnLogin
+5/1/2011 8:39 AM Clicked btnLogout
+5/1/2011 8:39 AM Clicked Exit
+
+5/1/2011 8:41 AM Started Program.
+5/1/2011 8:41 AM Clicked lstNameSelect Nick Doria
+5/1/2011 8:41 AM Clicked btnLogin
+5/1/2011 8:41 AM Clicked btnTimeReport
+5/1/2011 8:41 AM Clicked btnEmail
+5/1/2011 8:41 AM Clicked btnSend
+
+5/1/2011 8:46 AM Started Program.
+5/1/2011 8:46 AM Clicked lstNameSelect Nick Doria
+5/1/2011 8:46 AM Clicked btnLogin
+5/1/2011 8:47 AM Clicked btnTimeReport
+5/1/2011 8:47 AM Clicked btnEmail
+5/1/2011 8:47 AM Clicked btnSend
+5/1/2011 8:47 AM Clicked btnBack
+5/1/2011 8:47 AM Clicked btnBack
+5/1/2011 8:47 AM Clicked btnLogout
+5/1/2011 8:47 AM Clicked About
+5/1/2011 8:47 AM Clicked Exit
+
+11/25/2011 1:16 PM Started Program.
+11/25/2011 1:16 PM Clicked lstNameSelect Nick Doria
+11/25/2011 1:16 PM Clicked btnLogin
+11/25/2011 1:16 PM Clicked btnTimeReport
+11/25/2011 1:16 PM Clicked btnGenerate
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. The data extension returned an error during reading the field. There is no data for the field at position 4. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_TimedOverview’ contains a definition for the Field ‘ID’. The data extension returned an error during reading the field. There is no data for the field at position 1. (rsErrorReadingDataSetField)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. This field is missing from the returned result set from the data source. (rsMissingFieldInDataSet)
+Warning: The data set ‘timetrackerDataSet_NonTimed’ contains a definition for the Field ‘Notes’. The data extension returned an error during reading the field. There is no data for the field at position 4. (rsErrorReadingDataSetField)
+11/25/2011 1:18 PM Clicked btnBack
+11/25/2011 1:18 PM Clicked btnLogout
+11/25/2011 1:18 PM Clicked Exit
+
+11/28/2011 6:40 PM Started Program.
+
+11/28/2011 6:42 PM Started Program.
+11/28/2011 6:43 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:43 PM Clicked btnLogin
+
+11/28/2011 6:47 PM Started Program.
+11/28/2011 6:47 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:47 PM Clicked btnLogin
+
+11/28/2011 6:48 PM Started Program.
+11/28/2011 6:48 PM Clicked lstNameSelect Nick Doria
+11/28/2011 6:48 PM Clicked btnGoBack
+11/28/2011 6:48 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:48 PM Clicked btnLogin
+11/28/2011 6:48 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:48 PM Clicked btnLogin
+
+11/28/2011 6:50 PM Started Program.
+11/28/2011 6:50 PM Clicked Exit

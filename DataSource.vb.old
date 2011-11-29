@@ -1,0 +1,25 @@
+﻿Public Class DataSource
+    Private _value As Boolean
+
+    Public Sub New()
+        _value = False
+    End Sub
+    Public Property Value() As String
+        Get
+            Return Me._value
+        End Get
+
+        Set(ByVal value As String)
+            If Me._value <> value Then
+                Me._value = value
+
+                'Raise the event to notify listeners that the property value has changed.
+                'Me.OnValueChanged(EventArgs.Empty)
+                RaiseEvent ValueChanged(Me, EventArgs.Empty)
+            End If
+        End Set
+
+    End Property
+
+    Public Event ValueChanged(ByVal sender As Object, ByVal e As EventArgs)
+End Class

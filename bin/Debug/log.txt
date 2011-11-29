@@ -1,0 +1,55 @@
+
+Started Program.
+
+Started Program.
+8/31/2009 6:33 PM Clicked btnGoBack
+
+Started Program.
+
+Started Program.
+8/31/2009 6:34 PM Clicked About
+8/31/2009 6:34 PM Clicked Exit
+
+8/31/2009 8:50 PM Started Program.
+8/31/2009 8:50 PM Clicked btnLogin
+8/31/2009 8:50 PM Clicked btnLogout
+
+8/31/2009 8:51 PM Started Program.
+8/31/2009 8:51 PM Clicked btnLogin
+8/31/2009 8:52 PM Clicked btnLogout
+
+8/31/2009 8:52 PM Started Program.
+8/31/2009 8:52 PM Clicked btnLogin
+8/31/2009 8:52 PM Clicked btnLogout
+
+8/31/2009 8:54 PM Started Program.
+8/31/2009 8:54 PM Clicked lstNameSelect Nick Doria
+8/31/2009 8:54 PM Clicked btnLogin
+8/31/2009 8:54 PM Clicked btnLogout
+8/31/2009 8:54 PM Clicked Exit
+
+11/28/2011 6:52 PM Started Program.
+11/28/2011 6:53 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:53 PM Clicked btnLogin
+
+11/28/2011 6:55 PM Started Program.
+11/28/2011 6:55 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:55 PM Clicked btnLogin
+
+11/28/2011 6:56 PM Started Program.
+11/28/2011 6:56 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 6:56 PM Clicked btnLogin
+
+11/28/2011 7:00 PM Started Program.
+11/28/2011 7:00 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 7:00 PM Clicked btnLogin
+
+11/28/2011 7:02 PM Started Program.
+11/28/2011 7:02 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 7:02 PM Clicked btnLogin
+
+11/28/2011 7:37 PM Started Program.
+11/28/2011 7:37 PM Clicked lstNameSelect Rick Purvis
+11/28/2011 7:37 PM Clicked btnLogin
+11/28/2011 7:38 PM Clicked btnOK
+11/28/2011 7:38 PM Clicked Exit

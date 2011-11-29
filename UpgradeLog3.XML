@@ -1,0 +1,100 @@
+<?xml version="1.0" encoding="UTF-8"?><?xml-stylesheet type='text/xsl' href='_UpgradeReport_Files/UpgradeReport.xslt'?><UpgradeLog>
+<Properties><Property Name="Solution" Value="Associate Time Tracker">
+</Property><Property Name="Solution File" Value="F:\KwikKopy\Kwik Kopy Time Tracker V4\Associate Time Tracker.sln">
+</Property><Property Name="User Options File" Value="F:\KwikKopy\Kwik Kopy Time Tracker V4\Associate Time Tracker.suo">
+</Property><Property Name="Date" Value="Friday, November 25, 2011">
+</Property><Property Name="Time" Value="12:42 PM">
+</Property><Property Name="Log Number" Value="3">
+</Property></Properties><Event ErrorLevel="0" Project="" Source="Associate Time Tracker.sln" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Associate Time Tracker.sln">
+</Event><Event ErrorLevel="0" Project="" Source="Associate Time Tracker.suo" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Associate Time Tracker.suo">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Associate Time Tracker.vbproj" Description="Project file successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Associate Time Tracker.vbproj">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Associate Time Tracker.vbproj.user" Description="Project user file successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Associate Time Tracker.vbproj.user">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="AssemblyInfo.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\AssemblyInfo.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="BreakEvent.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\BreakEvent.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="DailyHours.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\DailyHours.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="DayEvent.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\DayEvent.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Enums.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Enums.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="FormImmobiliser.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\FormImmobiliser.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmAssociate.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmAssociate.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="AssociateClass.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\AssociateClass.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="CompanyClass.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\CompanyClass.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmCreateReport.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmCreateReport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmCreateReport.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmCreateReport.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmDetailedReport.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmDetailedReport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmDetailedReport.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmDetailedReport.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmEmailReports.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmEmailReports.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmEmailReports.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmEmailReports.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmInfo.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmInfo.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmInfo.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmInfo.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmMOTD.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmMOTD.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmMOTD.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmMOTD.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmOverviewReport.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmOverviewReport.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmOverviewReport.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmOverviewReport.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmPayroll.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmPayroll.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmPayroll.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmPayroll.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmViewAssociateTime.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmViewAssociateTime.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmViewAssociateTime.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmViewAssociateTime.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmWorking.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmWorking.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmWorking.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmWorking.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Legacy.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Legacy.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Logging.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Logging.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="LunchEvent.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\LunchEvent.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Application.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Application.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Resources.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Resources.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Settings.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Settings.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="PayperiodHours.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\PayperiodHours.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="PunchEvent.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\PunchEvent.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmAddAssociate.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmAddAssociate.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmEditAssociate.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmEditAssociate.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmFixFile.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmFixFile.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmGetPIN.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmGetPIN.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmLogin.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmLogin.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmManager.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmManager.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Functions.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Functions.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="ReportCreation.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\ReportCreation.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Tests.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Tests.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="TTDataSet.Designer.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\TTDataSet.Designer.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="TTDataSet.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\TTDataSet.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="ValidDouble.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\ValidDouble.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="WeeklyHours.vb" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\WeeklyHours.vb">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="DataSource.vb.old" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\DataSource.vb.old">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="app.config" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\app.config">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Associate Time Tracker_TemporaryKey.pfx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Associate Time Tracker_TemporaryKey.pfx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\app.manifest" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\app.manifest">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Settings.settings" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Settings.settings">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="TTDataSet.xsc" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\TTDataSet.xsc">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="TTDataSet.xsd" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\TTDataSet.xsd">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="TTDataSet.xss" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\TTDataSet.xss">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Resources\logo.jpg" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Resources\logo.jpg">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Application.myapp" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Application.myapp">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Notes.txt" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Notes.txt">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Queries.txt" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Queries.txt">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="README.txt" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\README.txt">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="tt.ico" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\tt.ico">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmAssociate.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmAssociate.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Detailed.rdlc" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Detailed.rdlc">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="DetailedOLD.rdlc" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\DetailedOLD.rdlc">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmCreateReport.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmCreateReport.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmDetailedReport.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmDetailedReport.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmEmailReports.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmEmailReports.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmInfo.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmInfo.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmMOTD.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmMOTD.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmOverviewReport.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmOverviewReport.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmPayroll.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmPayroll.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmViewAssociateTime.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmViewAssociateTime.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmWorking.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmWorking.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="My Project\Resources.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\My Project\Resources.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="OverviewOLD.rdlc" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\OverviewOLD.rdlc">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmAddAssociate.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmAddAssociate.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmEditAssociate.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmEditAssociate.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmFixFile.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmFixFile.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmGetPIN.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmGetPIN.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmLogin.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmLogin.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="frmManager.resx" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\frmManager.resx">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Overview.rdlc" Description="File successfully backed up as F:\KwikKopy\Kwik Kopy Time Tracker V4\Backup1\Overview.rdlc">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Associate Time Tracker.vbproj" Description="Project converted successfully">
+</Event><Event ErrorLevel="3" Project="Associate Time Tracker" Source="Associate Time Tracker.vbproj" Description="Converted">
+</Event><Event ErrorLevel="0" Project="" Source="Associate Time Tracker.sln" Description="Solution converted successfully">
+</Event><Event ErrorLevel="3" Project="" Source="Associate Time Tracker.sln" Description="Converted">
+</Event><Event ErrorLevel="0" Project="Associate Time Tracker" Source="Associate Time Tracker.vbproj" Description="Scan complete: Upgrade not required for project files.">
+</Event></UpgradeLog>

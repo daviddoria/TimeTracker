@@ -1,0 +1,93 @@
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe.config
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe.manifest
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.application
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\ResolveAssemblyReference.cache
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.vbproj.GenerateResource.Cache
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.cache
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.compiled
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.TrustInfo.xml
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe.manifest
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.application
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAssociate.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmCreateReport.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmDetailedReport.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEmailReports.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmInfo.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmMOTD.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmOverviewReport.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmPayroll.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmViewAssociateTime.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmWorking.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.Resources.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAddAssociate.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEditAssociate.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmFixFile.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmGetPIN.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmLogin.resources
+C:\Documents and Settings\Dave\Desktop\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmManager.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe.config
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe.manifest
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.application
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Associate Time Tracker.exe
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\ResolveAssemblyReference.cache
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAssociate.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmCreateReport.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmDetailedReport.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEmailReports.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmInfo.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmMOTD.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmOverviewReport.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmPayroll.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmViewAssociateTime.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmWorking.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.Resources.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAddAssociate.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEditAssociate.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmFixFile.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmGetPIN.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmLogin.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmManager.resources
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.vbproj.GenerateResource.Cache
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.cache
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.compiled
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.TrustInfo.xml
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe.manifest
+G:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.application
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe.config
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe.manifest
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.application
+G:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe
+F:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe.config
+F:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe.manifest
+F:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.application
+F:\KwikKopy\Kwik Kopy Time Tracker V4\bin\Release\Associate Time Tracker.exe
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\ResolveAssemblyReference.cache
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAssociate.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmCreateReport.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmDetailedReport.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEmailReports.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmInfo.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmMOTD.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmOverviewReport.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmPayroll.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmViewAssociateTime.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmWorking.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.Resources.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmAddAssociate.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmEditAssociate.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmFixFile.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmGetPIN.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmLogin.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\TimeTracker.frmManager.resources
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\GenerateResource-ResGen.read.1.tlog
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\GenerateResource-ResGen.write.1.tlog
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.cache
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\RdlCompile.compiled
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.TrustInfo.xml
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe.manifest
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.application
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\Associate Time Tracker.exe
+F:\KwikKopy\Kwik Kopy Time Tracker V4\obj\Release\GenerateResource.write.181.tlog

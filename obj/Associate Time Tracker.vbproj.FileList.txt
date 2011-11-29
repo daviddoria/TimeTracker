@@ -1,0 +1,93 @@
+obj\Debug\Associate Time Tracker.exe
+obj\Debug\Associate Time Tracker.pdb
+bin\Associate Time Tracker.exe
+bin\Associate Time Tracker.xml
+obj\Debug\ResolveAssemblyReference.cache
+obj\Debug\vb_test.frmAssociate.resources
+obj\Debug\vb_test.frmAddAssociate.resources
+obj\Debug\vb_test.frmEditAssociate.resources
+obj\Debug\vb_test.frmFixFile.resources
+obj\Debug\vb_test.frmGetPIN.resources
+obj\Debug\vb_test.frmSick.resources
+obj\Debug\vb_test.frmLogin.resources
+obj\Debug\vb_test.frmManager.resources
+obj\Debug\Associate Time Tracker.vbproj.GenerateResource.Cache
+obj\Debug\Associate Time Tracker.xml
+obj\Debug\vb_test.WeeklyReport.rpt
+obj\Debug\vb_test.frmViewReport.resources
+obj\Debug\vb_test.frmGetDate.resources
+obj\Debug\vb_test.frmViewAssociateTime.resources
+bin\Associate Time Tracker.exe.config
+obj\Debug\vb_test.Resources.resources
+obj\Release\ResolveAssemblyReference.cache
+obj\Release\vb_test.WeeklyReport.rpt
+obj\Release\vb_test.frmAssociate.resources
+obj\Release\vb_test.frmGetDate.resources
+obj\Release\vb_test.frmViewAssociateTime.resources
+obj\Release\vb_test.frmViewReport.resources
+obj\Release\vb_test.Resources.resources
+obj\Release\vb_test.frmAddAssociate.resources
+obj\Release\vb_test.frmEditAssociate.resources
+obj\Release\vb_test.frmFixFile.resources
+obj\Release\vb_test.frmGetPIN.resources
+obj\Release\vb_test.frmSick.resources
+obj\Release\vb_test.frmLogin.resources
+obj\Release\vb_test.frmManager.resources
+obj\Release\Associate Time Tracker.vbproj.GenerateResource.Cache
+obj\Release\Associate Time Tracker.exe
+obj\Release\Associate Time Tracker.xml
+bin\Associate Time Tracker.pdb
+bin\CrystalDecisions.CrystalReports.Engine.dll
+bin\CrystalDecisions.Enterprise.Framework.dll
+bin\CrystalDecisions.Enterprise.InfoStore.dll
+bin\CrystalDecisions.ReportSource.dll
+bin\CrystalDecisions.Shared.dll
+bin\CrystalDecisions.Windows.Forms.dll
+bin\de\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\en\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\es\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\fr\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\it\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\ja\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\ko\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\nl\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\pt\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\sv\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\zh-chs\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\zh-cht\CrystalDecisions.CrystalReports.Engine.resources.dll
+bin\de\CrystalDecisions.ReportSource.resources.dll
+bin\en\CrystalDecisions.ReportSource.resources.dll
+bin\es\CrystalDecisions.ReportSource.resources.dll
+bin\fr\CrystalDecisions.ReportSource.resources.dll
+bin\it\CrystalDecisions.ReportSource.resources.dll
+bin\ja\CrystalDecisions.ReportSource.resources.dll
+bin\ko\CrystalDecisions.ReportSource.resources.dll
+bin\nl\CrystalDecisions.ReportSource.resources.dll
+bin\pt\CrystalDecisions.ReportSource.resources.dll
+bin\sv\CrystalDecisions.ReportSource.resources.dll
+bin\zh-chs\CrystalDecisions.ReportSource.resources.dll
+bin\zh-cht\CrystalDecisions.ReportSource.resources.dll
+bin\de\CrystalDecisions.Windows.Forms.resources.dll
+bin\en\CrystalDecisions.Windows.Forms.resources.dll
+bin\es\CrystalDecisions.Windows.Forms.resources.dll
+bin\fr\CrystalDecisions.Windows.Forms.resources.dll
+bin\it\CrystalDecisions.Windows.Forms.resources.dll
+bin\ja\CrystalDecisions.Windows.Forms.resources.dll
+bin\ko\CrystalDecisions.Windows.Forms.resources.dll
+bin\nl\CrystalDecisions.Windows.Forms.resources.dll
+bin\pt\CrystalDecisions.Windows.Forms.resources.dll
+bin\sv\CrystalDecisions.Windows.Forms.resources.dll
+bin\zh-chs\CrystalDecisions.Windows.Forms.resources.dll
+bin\zh-cht\CrystalDecisions.Windows.Forms.resources.dll
+bin\de\CrystalDecisions.Shared.resources.dll
+bin\en\CrystalDecisions.Shared.resources.dll
+bin\es\CrystalDecisions.Shared.resources.dll
+bin\fr\CrystalDecisions.Shared.resources.dll
+bin\it\CrystalDecisions.Shared.resources.dll
+bin\ja\CrystalDecisions.Shared.resources.dll
+bin\ko\CrystalDecisions.Shared.resources.dll
+bin\nl\CrystalDecisions.Shared.resources.dll
+bin\pt\CrystalDecisions.Shared.resources.dll
+bin\sv\CrystalDecisions.Shared.resources.dll
+bin\zh-chs\CrystalDecisions.Shared.resources.dll
+bin\zh-cht\CrystalDecisions.Shared.resources.dll

@@ -1,0 +1,179 @@
+
+    Public Function CreateTwoWeekReport(ByVal StartDate As Date, ByVal EndDate As Date) As Boolean 'overview
+
+        Dim ReportDates As Date() = GetReportDates(StartDate, EndDate)
+
+        Dim paramList As New Generic.List(Of Microsoft.Reporting.WinForms.ReportParameter)
+
+        Dim strTitle As String = "Time Report Summary"
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTitle", strTitle))
+
+        Dim strDates As String = ReportDates(0).ToShortDateString + " to " + _
+                                ReportDates(ReportDates.Length - 1).ToShortDateString
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmDates", strDates))
+
+        Dim strSubject As String = ""
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmSubject", strSubject))
+
+        Dim strTo As String = Company.PayrollContact + ", Fax: " + Company.FaxNumber
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTo", strTo))
+
+        Dim strFrom As String = Company.OwnerName + " , Phone: " + Company.Phone
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmFrom", strFrom))
+
+        Dim strTimedReport As String = ""
+
+        Dim TimedAssociate As Associate
+        Dim CurrentDay As Date
+        Dim TotalHours As Double = 0
+        Dim HoursInCurrentDay As Double = 0
+        Dim NormalHours As Double = 0
+        Dim OverTimeHours As Double = 0
+
+        Dim TimedAssociates() As Associate = GetAssociates("Timed")
+        'Debug.WriteIf(Verbosity >= 1, TimedAssociates.Length.ToString + vbCrLf)
+
+        For Each TimedAssociate In TimedAssociates
+
+            strTimedReport = strTimedReport + vbCrLf + TimedAssociate.Name + vbCrLf + TimedAssociate.Social + vbCrLf
+            NormalHours = GetTwoWeekHours("normal", TimedAssociate.Name, EndDate)
+
+            If NormalHours = -1 Then 'getTwoWeekHours decided it was not the correct day to run the report
+                Exit Function
+            End If
+
+            OverTimeHours = FormatNumber(GetTwoWeekHours("overtime", TimedAssociate.Name, EndDate), 2)
+
+            strTimedReport = strTimedReport + "Normal Time: " + NormalHours.ToString + vbCrLf _
+                                            + "Over Time: " + OverTimeHours.ToString + vbCrLf
+
+        Next
+
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTimedReport", strTimedReport))
+
+        '*****************End Timed Report***************
+
+
+        '*****************Non-Timed Report***************
+
+        Dim strNonTimedReport As String = ""
+
+        Dim ManagerAssociates() As Associate = GetAssociates("manager")
+        Dim CommissionedAssociates() As Associate = GetAssociates("commissioned")
+
+        Dim NonTimedAssociates(ManagerAssociates.Length + CommissionedAssociates.Length - 1) As Associate
+        Array.Copy(ManagerAssociates, 0, NonTimedAssociates, 0, ManagerAssociates.Length)
+        Array.Copy(CommissionedAssociates, 0, NonTimedAssociates, ManagerAssociates.Length, _
+                   CommissionedAssociates.Length)
+
+        Dim NonTimedAssociate As Associate
+        For Each NonTimedAssociate In NonTimedAssociates
+            strNonTimedReport = strNonTimedReport + vbCrLf + _
+                NonTimedAssociate.Name + vbCrLf + NonTimedAssociate.Social + vbCrLf + _
+                "Commission:" + vbCrLf + "Salary:" + vbCrLf
+        Next
+
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmNonTimedReport", strNonTimedReport))
+
+        '*****************End Non-Timed Report***************
+
+        'assign the parameter list to the report
+        frmViewReport.ReportViewer1.LocalReport.SetParameters(paramList)
+
+        Return True
+        ' Refresh and display the report
+        'ReportViewer1.RefreshReport()
+
+    End Function
+
+    Public Function CreateDetailedReport(ByVal StartDate As Date, ByVal EndDate As Date) As Boolean
+
+        Dim paramList As New Generic.List(Of Microsoft.Reporting.WinForms.ReportParameter)
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTo", ""))
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmFrom", ""))
+
+
+        Dim ReportDates As Date() = GetReportDates(StartDate, EndDate)
+
+        Dim strTitle As String = "Detailed Time Report"
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTitle", strTitle))
+
+        Dim strDates As String = ReportDates(0).ToShortDateString + " to " + _
+                                ReportDates(ReportDates.Length - 1).ToShortDateString
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmDates", strDates))
+
+        Dim strSubject As String = ""
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmSubject", strSubject))
+
+        '*****************Timed Report***************
+        Dim strTimedReport As String = ""
+        Dim TimedAssociate As Associate
+        Dim CurrentDay As Date
+        Dim TotalHours As Double = 0
+        Dim HoursInCurrentDay As Double = 0
+        Dim NormalHours As Double = 0
+        Dim OverTimeHours As Double = 0
+
+        Dim TimedAssociates() As Associate = GetAssociates("Timed")
+        Debug.WriteIf(Verbosity >= 1, TimedAssociates.Length.ToString + vbCrLf)
+
+        For Each TimedAssociate In TimedAssociates
+
+            'strTimedReport = strTimedReport + vbCrLf + TimedAssociate.Name + vbCrLf _
+            '                    + TimedAssociate.Social + vbCrLf
+            strTimedReport = strTimedReport + Environment.NewLine + TimedAssociate.Name + Environment.NewLine _
+                                + TimedAssociate.Social + Environment.NewLine
+
+            Dim HasHours As Boolean = False
+
+            For Each CurrentDay In ReportDates
+                HoursInCurrentDay = TimedAssociate.CalculateHoursInDay(CurrentDay)
+                If HoursInCurrentDay > 0 Then
+                    HasHours = True
+                    strTimedReport = strTimedReport + CurrentDay.DayOfWeek.ToString + ":" + HoursInCurrentDay.ToString + " "
+                End If
+            Next
+            If HasHours = True Then
+                strTimedReport = strTimedReport + vbCrLf
+            End If
+
+            TimedAssociate.CalculateTime(ReportDates(0), ReportDates(ReportDates.Length - 1), NormalHours, OverTimeHours)
+
+            strTimedReport = strTimedReport + "Normal Time: " + NormalHours.ToString + vbCrLf _
+                                 + "Over Time: " + OverTimeHours.ToString + vbCrLf
+
+        Next
+
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmTimedReport", strTimedReport))
+        '*****************End Timed Report***************
+
+
+        '*****************Non-Timed Report***************
+
+        Dim ManagerAssociates() As Associate = GetAssociates("manager")
+        Dim CommissionedAssociates() As Associate = GetAssociates("commissioned")
+
+        Dim NonTimedAssociates(ManagerAssociates.Length + CommissionedAssociates.Length - 1) As Associate
+        Array.Copy(ManagerAssociates, 0, NonTimedAssociates, 0, ManagerAssociates.Length)
+        Array.Copy(CommissionedAssociates, 0, NonTimedAssociates, ManagerAssociates.Length, _
+                   CommissionedAssociates.Length)
+
+        Dim NonTimedAssociate As Associate
+
+        Dim strNonTimedReport As String = ""
+        For Each NonTimedAssociate In NonTimedAssociates
+            strNonTimedReport = strNonTimedReport + vbCrLf + _
+                NonTimedAssociate.Name + vbCrLf + NonTimedAssociate.Social + vbCrLf + _
+                "Commission:" + vbCrLf + "Salary:" + vbCrLf
+        Next
+
+        paramList.Add(New Microsoft.Reporting.WinForms.ReportParameter("prmNonTimedReport", strNonTimedReport))
+        '*****************End Non-Timed Report***************
+
+
+        'assign the parameter list to the report
+        frmViewReport.ReportViewer1.LocalReport.SetParameters(paramList)
+
+        Return True
+    End Function
+
