@@ -1,4 +1,7 @@
-You must install .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
+Required dependencies
+---------------------
+- .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
+- Report Viewer Redistributable 2008 (http://www.microsoft.com/en-us/download/details.aspx?id=6576)
 
 Your resolution must be at least 1024x768.
 
