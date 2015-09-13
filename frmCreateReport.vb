@@ -22,12 +22,21 @@ Public Class frmCreateReport
         'generate and display a different report based on the radio button selection
         If radDetailed.Checked = True Then
             'MessageBox.Show("Running detailed DoWork() " + StartDate.ToString + " " + StartDate.AddDays(6).ToString)
-            ReportSuccessful = CreateDetailedReport(StartDate, StartDate.AddDays(6)) 'to get to the day before the next payday
+            Try
+                ReportSuccessful = CreateDetailedReport(StartDate, StartDate.AddDays(6)) 'to get to the day before the next payday
+            Catch ex As Exception
+                MsgBox("CreateDetailedReport() threw an exception!" & vbCrLf & ex.Message)
+            End Try
             'MessageBox.Show("Created detailed report.")
             frmDetailedReport.ShowDialog()
         ElseIf radOverview.Checked = True Then
             'MessageBox.Show("Running overview...")
-            ReportSuccessful = CreateTwoWeekReport(StartDate, StartDate.AddDays(13)) 'to get to the day before the next payday
+            Try
+                ReportSuccessful = CreateTwoWeekReport(StartDate, StartDate.AddDays(13)) 'to get to the day before the next payday
+            Catch ex As Exception
+                MsgBox("CreateDetailedReport() threw an exception!" & vbCrLf & ex.Message)
+            End Try
+            
             frmOverviewReport.ShowDialog()
         End If
 
