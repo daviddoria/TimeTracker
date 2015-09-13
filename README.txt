@@ -1,6 +1,8 @@
-﻿Must install .Net Framework 3.5 sp1 before using this program.
+You must install .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
 
-Resolution must be at least 1024x768
+Your resolution must be at least 1024x768.
+
+This code is known to build on Visual Studio 2010.
 
 Time tracker is a program to replace the old "punch card" machines, as well as
 produce reports of employees work times throughout the payperiod. These reports are submitted to the payroll company at the end of each pay period.
