@@ -1,6 +1,7 @@
 Required dependencies
 ---------------------
 - Windows Insatller 3.1 (https://www.microsoft.com/en-us/download/details.aspx?id=25)
+- Windows Imaging Component (https://www.microsoft.com/en-us/download/details.aspx?id=32)
 - .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
 - Report Viewer Redistributable 2008 (http://www.microsoft.com/en-us/download/details.aspx?id=6576)
 
