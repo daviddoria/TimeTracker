@@ -3,7 +3,7 @@ Required dependencies
 - Windows Installer 3.1 (https://www.microsoft.com/en-us/download/details.aspx?id=25)
 - Windows Imaging Component (https://www.microsoft.com/en-us/download/details.aspx?id=32)
 - .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
-- Report Viewer Redistributable 2008 (http://www.microsoft.com/en-us/download/details.aspx?id=6576)
+- Report Viewer Redistributable 2008 (http://www.microsoft.com/en-us/download/details.aspx?id=6576) ( Even though .Net Framework 4 is installed, .Net Framework 2.0 is required to install the Report Viewer: https://www.microsoft.com/en-us/download/details.aspx?id=1639)
 
 Your resolution must be at least 1024x768.
 
