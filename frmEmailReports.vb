@@ -1,4 +1,6 @@
-﻿Public Class frmEmailReports
+﻿Imports System.IO
+
+Public Class frmEmailReports
 
     Private immobiliser As New FormImmobiliser(Me)
 
@@ -60,6 +62,7 @@
     End Function
 
     Private Sub frmEmailReports_Load(ByVal sender As System.Object, ByVal e As System.EventArgs) Handles MyBase.Load
+
         'txtTo.Text = "daviddoria@gmail.com"
         txtTo.Text = "nick@kwikkopy.com"
         txtSubject.Text = "Time Reports " + Now.ToShortDateString
@@ -120,11 +123,27 @@
             MessageBox.Show("Sent Detailed and Overview Report!")
         End If
 
-        resetform()
+        ResetForm()
 
     End Sub
 
     Private Sub SendReportEmail(ByVal strToAddress As String, ByVal SendDetailed As Boolean, ByVal SendOverview As Boolean)
+
+        ' Load credentials from file
+
+        Dim EmailCredentialsFilename As String = "c:\Time Tracker\EmailCredentials.txt"
+        If Not File.Exists(EmailCredentialsFilename) Then
+            Throw New System.Exception(EmailCredentialsFilename + " does not exist!")
+        End If
+
+        Dim EmailCredentialsLines() As String = File.ReadAllLines(EmailCredentialsFilename)
+
+        Dim EmailUsername As String = EmailCredentialsLines(0)
+        Dim EmailPassword As String = EmailCredentialsLines(1)
+        Dim EmailSMTPServer As String = EmailCredentialsLines(2)
+        Dim EmailSMTPPort As Integer = Convert.ToInt32(EmailCredentialsLines(3))
+
+        MsgBox("Username: " + EmailUsername + " pw: " + EmailPassword)
 
         Dim EmailFrom As String = "service@kwikkopy.com"
         Dim EmailTo As String = strToAddress
@@ -143,9 +162,9 @@
             email.Attachments.Add(New Net.Mail.Attachment(DetailedFile))
         End If
 
-        Dim emailClient As New Net.Mail.SmtpClient("smtp.gmail.com", 587) '465 or 587
+        Dim emailClient As New Net.Mail.SmtpClient(EmailSMTPServer, EmailSMTPPort) '465 or 587
         emailClient.EnableSsl = True
-        emailClient.Credentials = New Net.NetworkCredential("kkp1497@gmail.com", "kwikkopy1497")
+        emailClient.Credentials = New Net.NetworkCredential(EmailUsername, EmailPassword)
 
         emailClient.Send(email)
     End Sub
