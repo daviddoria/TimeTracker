@@ -1,13 +1,17 @@
-Required dependencies
----------------------
+Required dependencies for users
+-------------------------------
 - Windows Installer 3.1 (https://www.microsoft.com/en-us/download/details.aspx?id=25)
 - Windows Imaging Component (https://www.microsoft.com/en-us/download/details.aspx?id=32)
 - .Net Framework 4 (https://www.microsoft.com/en-us/download/details.aspx?id=17851) to run this program.
 - Report Viewer Redistributable 2008 (http://www.microsoft.com/en-us/download/details.aspx?id=6576) ( Even though .Net Framework 4 is installed, .Net Framework 2.0 is required to install the Report Viewer: https://www.microsoft.com/en-us/download/details.aspx?id=1639)
+- Updates for Root Certificates (https://www.microsoft.com/en-us/download/confirmation.aspx?id=26609)
 
 Your resolution must be at least 1024x768.
 
-This code is known to build on Visual Studio 2010.
+Developers
+----------
+- This code is known to build on Visual Studio 2010.
+- This code targets .NET 3.5, so you must install .NET Framework 3.5 SP1  before opening the project in Visual Studio 2010 (https://www.microsoft.com/en-us/download/details.aspx?id=25150). If it asks you to retarget and you say yes, some things break.
 
 Time tracker is a program to replace the old "punch card" machines, as well as
 produce reports of employees work times throughout the payperiod. These reports are submitted to the payroll company at the end of each pay period.
