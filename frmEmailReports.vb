@@ -143,7 +143,7 @@ Public Class frmEmailReports
         Dim EmailSMTPServer As String = EmailCredentialsLines(2)
         Dim EmailSMTPPort As Integer = Convert.ToInt32(EmailCredentialsLines(3))
 
-        MsgBox("Username: " + EmailUsername + " pw: " + EmailPassword)
+        'MsgBox("Username: " + EmailUsername + " pw: " + EmailPassword)
 
         Dim EmailFrom As String = "service@kwikkopy.com"
         Dim EmailTo As String = strToAddress
@@ -162,7 +162,10 @@ Public Class frmEmailReports
             email.Attachments.Add(New Net.Mail.Attachment(DetailedFile))
         End If
 
-        Dim emailClient As New Net.Mail.SmtpClient(EmailSMTPServer, EmailSMTPPort) '465 or 587
+        '** Overriding the certificate validation check.
+        Net.ServicePointManager.ServerCertificateValidationCallback = Function(sender, certificate, chain, sslPolicyErrors) True
+
+        Dim emailClient As New Net.Mail.SmtpClient(EmailSMTPServer, EmailSMTPPort)
         emailClient.EnableSsl = True
         emailClient.Credentials = New Net.NetworkCredential(EmailUsername, EmailPassword)
 
